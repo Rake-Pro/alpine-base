@@ -7,7 +7,7 @@
 # Dockerfiles. Rebuilt weekly (rebuild.yml) so :latest and the current semver
 # tag always carry the newest Alpine patch set; consumers pin by digest and
 # Dependabot opens the digest bump.
-FROM docker.io/library/alpine:3.23
+FROM docker.io/library/alpine:3.24
 
 LABEL org.opencontainers.image.source="https://github.com/Rake-Pro/alpine-base" \
       org.opencontainers.image.description="Alpine runtime base: security patches applied, catatonit init, CA and tzdata"
